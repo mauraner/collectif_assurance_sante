@@ -1,5 +1,5 @@
 site:
-  name: AstroWind
+  name: Collectif Assurance Santé
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
@@ -9,16 +9,16 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: Collectif Assurance Santé
     template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F685 Nous sommes le collectif citoyen pour une vériable assurance santé."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Collectif Assurance Santé
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/logo_carré1.png'
         width: 1200
         height: 628
     type: website
@@ -28,7 +28,7 @@ metadata:
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: fr
   textDirection: ltr
 
 apps:
